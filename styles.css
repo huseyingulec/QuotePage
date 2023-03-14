@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url("nature.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 20px 50px;
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 25% auto;
+    
+}
+
+.hero:hover {
+    color: white;
+    background-color: grey;
+} 
+
+
+.quote {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.author {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
